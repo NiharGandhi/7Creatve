@@ -10,6 +10,20 @@ const SinglePost = () => {
   const { id } = router.query
   const post = blogdata.find((post) => post.id === parseInt(id))
 
+  if (!post) {
+    // Render a message for no posts
+    return (
+      <>
+        <Head>
+          <title>No Posts</title>
+        </Head>
+        <div>
+          <p>No posts found.</p>
+        </div>
+      </>
+    )
+  }
+
   return (
     <>
       <Head>
