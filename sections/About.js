@@ -40,7 +40,7 @@ const About = () => {
               <img src='/images/s4.jpg' alt='Img' className='round' width='100%' height='100%' />
             </div>
             <div className='right w-60 ml'>
-              <TitleSm title='Our mission' />
+              <TitleSm title='Our Mission' />
               <br />
               <p className='misson-p'>At D&N, our mission is to empower businesses and individuals with compelling visual narratives that transcend expectations. We strive to be the catalyst for your brand's success by seamlessly blending creativity with strategic precision. Committed to excellence, innovation, and personalized solutions, we aim to not only meet but exceed your aspirations. With a passion for transforming ideas into captivating visuals, we embark on a journey to elevate your brand to new heights. Your success is our mission, and together, we create a visual legacy that resonates.</p>
             </div>
