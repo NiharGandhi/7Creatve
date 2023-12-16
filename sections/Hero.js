@@ -47,7 +47,7 @@ const Hero = () => {
       <Brand />
 
       <div className='text-center'>
-        <Title title='Latest news & articles' />
+        <Title title='Latest News & Articles' />
       </div>
       <BlogCard />
     </>
