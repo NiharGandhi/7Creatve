@@ -7,14 +7,12 @@ export const Card = ({ data, caption, show, path }) => {
     <>
       <div className='card'>
         <div className='card-img'>
-          <img src={data.cover} alt={data.title} />
+          <img src={data.cover} alt={data.title} className="w-[10px] h-[10px]"/>
         </div>
         <div className='card-details'>
-          <Link href={`${path}/${data.id}`} className='title-link'>
-            <TitleSm title={data.title} />
-          </Link>
+          <TitleSm title={data.title} />
           {caption && (
-            <Link href={`${path}/${data.id}`}>
+            <Link href={'/services'}>
               {caption} <HiOutlineArrowRight className='link-icon' />
             </Link>
           )}

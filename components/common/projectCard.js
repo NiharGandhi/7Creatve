@@ -12,7 +12,7 @@ export const Card = ({ data, caption, show, path }) => {
         <div className='card-details'>
             <TitleSm title={data.title} />
           {caption && (
-            `${path}/${data.id}`
+            { caption }
             // <Link href={`${path}/${data.id}`}>
             //   {caption} <HiOutlineArrowRight className='link-icon' />
             // </Link>

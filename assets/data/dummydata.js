@@ -40,12 +40,6 @@ export const expertise = [
     cover: "../images/e1.jpg",
     desc: [{ text: "Web design" }, { text: "Web development" }, { text: "Custom icons & illustrations" }, { text: "Hosting" }, { text: "Website audit" }],
   },
-  {
-    id: 4,
-    title: "TBD",
-    cover: "../images/e3.jpg",
-    desc: [{ text: "E-Commerce website design" }, { text: "WooCommerce" }, { text: "Content management" }, { text: "Hosting" }],
-  },
 ]
 export const testimonial = [
   {
