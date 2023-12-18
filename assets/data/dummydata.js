@@ -141,6 +141,28 @@ export const showcase = [
   // Add more entries as needed...
 ];
 
+export const digitalmarketing = [
+  {
+    id: 1,
+    title: "Instagram Reel Showcase",
+    cover: "../images/s1.jpg",
+    desc: [{ text: "Instagram Reels" }, { text: "TikTok(s)" }],
+  },
+  {
+    id: 5,
+    title: "TikTok Story Magic",
+    cover: "../images/s5.jpg",
+    desc: [{ text: "Instagram Story" }, { text: "TikTok Story" }],
+  },
+  {
+    id: 8,
+    title: "Engaging Instagram Posts",
+    cover: "../images/s2.jpg",
+    desc: [{ text: "Instagram Post" }, { text: "Instagram Post" }, { text: "Instagram Post" }, { text: "Instagram Post" }]
+  },
+  // Add more entries as needed...
+];
+
 export const brand = [
   {
     id: 1,

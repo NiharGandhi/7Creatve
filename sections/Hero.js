@@ -13,7 +13,7 @@ const Hero = () => {
       <section className='hero'>
         <div className='container'>
           {/* LOGO COMPANY NAME */}
-          <TitleLogo title='creative' caption='7' className='logobg' />
+          <TitleLogo title='Marketing' caption='D&N' className='logobg' />
           <h1 className='hero-title'>WE BUILD DIGITAL EXPERIENCES</h1>
 
           <div className='sub-heading'>
@@ -41,15 +41,16 @@ const Hero = () => {
         </div>
       </section>
       <Expertise />
-      <Banner />
-      <Testimonial />
-      <ShowCase />
-      <Brand />
-
-      <div className='text-center'>
+      {/* <Banner /> */}
+      {/* <Testimonial /> */}
+      {/* <ShowCase /> */}
+      {/* <Brand /> */}
+      
+      {/* Blog */}
+      {/* <div className='text-center'>
         <Title title='Latest News & Articles' />
       </div>
-      <BlogCard />
+      <BlogCard /> */}
     </>
   )
 }
