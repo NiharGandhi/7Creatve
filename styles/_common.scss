@@ -10,10 +10,25 @@
     color: $green;
   }
 }
+// .logobg {
+//   font-size: $xll;
+//   span {
+//     font-size: 50px;
+//   }
+// }
 .logobg {
   font-size: $xll;
+
   span {
     font-size: 50px;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 50px;
+
+    span {
+      font-size:50px;
+    }
   }
 }
 .titleSm {

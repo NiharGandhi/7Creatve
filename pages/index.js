@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>D&N Marketing</title>
+        <title>WeDesigning</title>
       </Head>
       <Hero />
     </>
